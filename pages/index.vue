@@ -82,6 +82,11 @@
   <ImageCarousel />
 
   <div class="mb-52"></div>
+
+  <ContactBanner />
+  
+  <div class="mb-52"></div>
+
 </template>
 
 <script lang="ts" setup></script>

@@ -10,7 +10,7 @@
 		</div>
 		<a
 			href="#"
-			class="hover:bg-primary-800 focus:ring-primary-300 inline-flex w-fit items-center justify-center rounded border border-primary md:px-12 md:py-4 text-center text-lg font-medium uppercase text-primary focus:ring-4 px-6 py-2 sm:mt-11"
+			class="hover:bg-primary-800 focus:ring-primary-300 inline-flex w-fit items-center justify-center rounded border border-primary md:px-12 md:py-4 text-center text-lg font-medium uppercase text-primary focus:ring-4 px-6 py-2 mt-11 md:mt-0"
 		>
 			contact us
 			<svg

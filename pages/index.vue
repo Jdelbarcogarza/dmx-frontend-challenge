@@ -83,7 +83,11 @@
 
   <div class="mb-52"></div>
 
-  <ContactBanner />
+	<!-- tal vez debas aplicar padding -->
+	<div class="flex justify-center">
+
+		<ContactBanner />
+	</div>
   
   <div class="mb-52"></div>
 

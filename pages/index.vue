@@ -91,6 +91,8 @@
   
   <div class="mb-52"></div>
 
+	<ContactCard />
+
 </template>
 
 <script lang="ts" setup></script>

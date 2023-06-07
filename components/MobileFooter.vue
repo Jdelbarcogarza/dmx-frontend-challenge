@@ -1,6 +1,6 @@
 <template>
-	<div id="accordion-collapse" data-accordion="collapse" class="mt-11">
-		<AccordionItem :item-number="1" title="Company">
+	<div  id="accordion-collapse" data-accordion="collapse" class="mt-11">
+		<AccordionItem  :item-number="1" title="Company">
 			<ul class="space-y-5 text-stone-400">
 				<li>
 					<NuxtLink to="#">Team</NuxtLink>
@@ -51,7 +51,10 @@
 import { initAccordions } from "flowbite";
 import AccordionItem from "./UI/AccordionItem.vue";
 
+const dropdown = ref();
+
 onMounted(() => {
+
 	initAccordions();
 });
 </script>

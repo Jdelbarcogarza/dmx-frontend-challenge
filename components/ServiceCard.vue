@@ -1,9 +1,9 @@
 <template>
 	<div
-		class="flex h-[350px] w-64 flex-col items-center rounded-xl p-4 shadow-lg bg-white"
+		class="flex h-[350px] sm:w-[240px] flex-col items-center rounded-xl p-4 shadow-lg bg-white min-w-[240px] overflow-visible my-8"
 	>
 		<img
-			class="relative bottom-8 -mb-3 h-32 w-56 rounded-xl shadow-lg drop-shadow-xl"
+			class="relative bottom-8 -mb-3 h-32 w-56 rounded-xl shadow-lg drop-shadow-xl "
 			:src="props.image"
 			alt="camera"
 		/>

@@ -1,8 +1,6 @@
 <template>
 	<NavBar />
 
-
-
 	<!-- hero section -->
 	<section class="bg-white">
 		<div
@@ -101,7 +99,7 @@
 	<div class="mb-52"></div>
 
 	<section
-		class="grid grid-flow-row grid-cols-1 px-4 md:grid-cols-2 md:grid-rows-1 w-full gap-6 pb-8"
+		class="grid w-full grid-flow-row grid-cols-1 gap-6 px-4 pb-8 md:grid-cols-2 md:grid-rows-1"
 	>
 		<div class="flex flex-col items-center justify-around">
 			<h4 class="mb-8 h-fit text-center text-4xl font-bold text-blue-800">
@@ -109,26 +107,36 @@
 			</h4>
 
 			<div class="space-y-6">
-			<ContactCard />
-			<ContactCard class="" />
-		</div>
+				<ContactCard />
+				<ContactCard class="" />
+			</div>
 		</div>
 
 		<iframe
 			class="h-[650px] w-full rounded-xl md:row-span-2"
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
-		
 			style="border: 0"
 			allowfullscreen="false"
 			loading="lazy"
 			referrerpolicy="no-referrer-when-downgrade"
 		></iframe>
-		
 	</section>
 
+	<div class="p-5 space-y-5">
+		<div class="flex items-center justify-center">
+			<img
+			class="grayscale opacity-60 w-14"
+				src="https://veluxi3.vercel.app/_nuxt/agency-logo.5255aa36.svg"
+				alt="logo"
+			/>
+			<h5 class="text-stone-400 text-xl ml-3">Agency Theme</h5>
+		</div>
+		<p class="text-center text-stone-500">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsam?
+		</p>
+	</div>
 
 	<MobileFooter />
-
 </template>
 
 <script lang="ts" setup></script>

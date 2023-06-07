@@ -10,7 +10,7 @@
       <span>{{ title }}</span>
       <svg
         data-accordion-icon
-        class="h-6 w-6 shrink-0"
+        class="h-6 w-6 rotate-180 shrink-0"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
@@ -38,8 +38,16 @@
 </template>
 
 <script lang="ts" setup>
+import { initAccordions } from "flowbite";
+
+
 defineProps<{
   itemNumber: number;
   title: string;
 }>();
+
+onMounted(() => {
+
+initAccordions();
+});
 </script>

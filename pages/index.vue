@@ -46,7 +46,7 @@
 	<section class="flex flex-col md:flex-row-reverse bg-sky-50 justify-around items-center py-20">
 		<h4 class="-mt-8 mb-8 text-4xl font-bold capitalize text-blue-800">our<br class="hidden md:visible" /> services</h4>
 
-		<div class="flex space-x-4 overflow-x-auto ">
+		<div class="flex md:justify-center md:w-fit space-x-4 overflow-x-auto w-full">
 			<ServiceCard
 				title="Duis fermentum"
 				image="https://res.cloudinary.com/imajin/image/upload/v1583497239/agency/service3_hiunda.jpg"

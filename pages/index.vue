@@ -1,7 +1,10 @@
 <template>
 	<NavBar />
+
+
+
+	<!-- hero section -->
 	<section class="bg-white">
-		<!-- hero section -->
 		<div
 			class="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0"
 		>
@@ -43,10 +46,17 @@
 	</section>
 
 	<!-- services section -->
-	<section class="flex flex-col md:flex-row-reverse bg-sky-50 justify-around items-center py-20">
-		<h4 class="-mt-8 mb-8 text-4xl font-bold capitalize text-blue-800">our<br class="hidden md:visible" /> services</h4>
+	<section
+		class="flex flex-col items-center justify-around bg-sky-50 py-20 md:flex-row-reverse"
+	>
+		<h4 class="-mt-8 mb-8 text-4xl font-bold capitalize text-blue-800">
+			our<br class="hidden md:visible" />
+			services
+		</h4>
 
-		<div class="flex md:justify-center md:w-fit space-x-4 overflow-x-auto w-full">
+		<div
+			class="flex w-full space-x-4 overflow-x-auto md:w-fit md:justify-center"
+		>
 			<ServiceCard
 				title="Duis fermentum"
 				image="https://res.cloudinary.com/imajin/image/upload/v1583497239/agency/service3_hiunda.jpg"
@@ -79,19 +89,45 @@
 		</div>
 	</section>
 
-  <!-- <ImageCarousel /> -->
+	<!-- <ImageCarousel /> -->
 
-  <div class="mb-52"></div>
+	<div class="mb-52"></div>
 
 	<!-- tal vez debas aplicar padding -->
-	<div class="flex justify-center">
-
+	<div class="flex justify-center px-4">
 		<ContactBanner />
 	</div>
-  
-  <div class="mb-52"></div>
 
-	<ContactCard />
+	<div class="mb-52"></div>
+
+	<section
+		class="grid grid-flow-row grid-cols-1 px-4 md:grid-cols-2 md:grid-rows-1 w-full gap-6 pb-8"
+	>
+		<div class="flex flex-col items-center justify-around">
+			<h4 class="mb-8 h-fit text-center text-4xl font-bold text-blue-800">
+				Our Office
+			</h4>
+
+			<div class="space-y-6">
+			<ContactCard />
+			<ContactCard class="" />
+		</div>
+		</div>
+
+		<iframe
+			class="h-[650px] w-full rounded-xl md:row-span-2"
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
+		
+			style="border: 0"
+			allowfullscreen="false"
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"
+		></iframe>
+		
+	</section>
+
+
+	
 
 </template>
 

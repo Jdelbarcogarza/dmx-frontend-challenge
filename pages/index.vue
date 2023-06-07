@@ -127,7 +127,7 @@
 	</section>
 
 
-	
+	<MobileFooter />
 
 </template>
 

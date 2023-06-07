@@ -1,10 +1,10 @@
 <template>
 	<div
-		class="flex flex-col md:flex-row w-full max-w-7xl justify-around items-center rounded-xl border-2 border-cyan-500 bg-white py-7 px-16"
+		class="flex flex-col md:flex-row w-full max-w-7xl justify-between items-center rounded-xl border-2 border-cyan-500 bg-white py-7 md:px-20 px-4"
 	>
-		<div class="flex flex-col justify-start space-y-4">
-			<h4 class="text-4xl font-bold text-cyan-800">Ready to get started?</h4>
-			<p class="text-2xl text-neutral-800">
+		<div class="flex flex-col justify-start space-y-4 text-center md:text-left">
+			<h4 class="text-3xl md:text-4xl font-bold text-cyan-800">Ready to get started?</h4>
+			<p class="text-lg md:text-2xl text-neutral-800">
 				Best Tech team are not instant, born they're made...
 			</p>
 		</div>

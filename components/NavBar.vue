@@ -29,7 +29,6 @@
 					class="fixed left-0 top-0 z-40 h-screen w-80 -translate-x-full overflow-y-auto bg-white p-4 transition-transform dark:bg-gray-800"
 					tabindex="-1"
 					aria-labelledby="drawer-navigation-label"
-					data-drawer-backdrop="false"
 				>
 					<h5
 						id="drawer-navigation-label"
@@ -170,6 +169,7 @@
 
 <script setup lang="ts">
 import { initDrawers } from 'flowbite';
+import { modalBackdrop } from 'flowbite';
 
 onMounted(() => {
 	initDrawers()

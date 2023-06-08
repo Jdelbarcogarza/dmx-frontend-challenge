@@ -122,7 +122,7 @@
 		></iframe>
 	</section>
 
-	<!-- <div class="p-5 space-y-5">
+	<div class="md:hidden p-5 space-y-5">
 		<div class="flex items-center justify-center">
 			<img
 			class="grayscale opacity-60 w-14"
@@ -134,7 +134,9 @@
 		<p class="text-center text-stone-500">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsam?
 		</p>
-	</div> -->
+	</div>
+
+	<AnnouncementBanner />
 
 	<MobileFooter class="md:hidden" />
 

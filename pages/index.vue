@@ -6,7 +6,7 @@
 		<div
 			class="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0"
 		>
-			<div class="mr-auto place-self-center lg:col-span-7">
+			<div class="mr-auto place-self-center lg:col-span-7 text-center md:text-left">
 				<h1
 					class="mb-4 max-w-2xl text-4xl font-bold leading-none tracking-tight text-neutral-800 md:text-5xl xl:text-6xl"
 				>

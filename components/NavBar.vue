@@ -11,6 +11,7 @@
 					data-drawer-target="drawer-navigation"
 					data-drawer-show="drawer-navigation"
 					aria-controls="drawer-navigation"
+					data-drawer-backdrop="true"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -170,6 +171,9 @@
 <script setup lang="ts">
 import { initDrawers } from 'flowbite';
 import { modalBackdrop } from 'flowbite';
+
+const backdropHidden = ref<boolean>(true);
+
 
 onMounted(() => {
 	initDrawers()
